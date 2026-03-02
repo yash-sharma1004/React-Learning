@@ -28,7 +28,7 @@ function reset(){
       <button onClick={() => add()} >Increment</button> {""}
       <button onClick={() => remove()} >Decrement</button> 
       <br />
-      <br />
+      <br /> test
       <button onClick={()=> reset()}>reset</button>
       <p>let's start counting :{counter}</p>
     </>
