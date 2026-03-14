@@ -1,6 +1,5 @@
+
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -28,7 +27,7 @@ function reset(){
       <button onClick={() => add()} >Increment</button> {""}
       <button onClick={() => remove()} >Decrement</button> 
       <br />
-      <br /> test
+      <br /> 
       <button onClick={()=> reset()}>reset</button>
       <p>let's start counting :{counter}</p>
     </>

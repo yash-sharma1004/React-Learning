@@ -2,29 +2,31 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import ThemeBar from './component/ThemeBar'
 
 function Theme() {
-  const [Dark,setDark] = useState(false)
+  const [Dark, setDark] = useState(false)
 
   return (
     <>
-    <div style={{
-    background:Dark?"black":"white",
-    color: Dark?  "white":"black",
-   height:"50vh"
-    }}>
+      {/* <div style={{
+        background: Dark ? "black" : "white",
+        color: Dark ? "white" : "black",
+        height: "50vh"
+      }}>
 
 
-    </div>
-     
+      </div>
+
       <h1> Toggle</h1>
-    <button onClick={() => setDark(!Dark)}>Theme Toggle</button>
-   {/* <h1 class="text-3xl text-blue-500 font-bold underline">
+      <button onClick={() => setDark(!Dark)}>Theme Toggle</button> */}
+      {/* <h1 class="text-3xl text-blue-500 font-bold underline">
     Hello world!
   </h1> */}
+      <ThemeBar />
     </>
   )
 }
 
 export default Theme
- 
+
