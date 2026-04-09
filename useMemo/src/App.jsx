@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <h1>{squaredValue}</h1>
-      <button onClick={() => setCount(count + 1)}>Increase</button>
+      <button onClick={() => setCount(count + 1)}>increment</button>
     </div>
   );
 }
