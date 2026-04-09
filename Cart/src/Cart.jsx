@@ -15,7 +15,7 @@ const Cart = () => {
         <div key={item.cartId}>
           <p>{item.name}</p>
 
-          <button onClick={() => decreaseQty(item.id)}>−</button>
+          <button onClick={() => decreaseQty(item.id)}>-</button>
           <span> {item.quantity} </span>
           <button onClick={() => increaseQty(item.id)}>+</button>
         </div>
